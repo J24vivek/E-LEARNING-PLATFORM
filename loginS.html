@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK learn </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="loginS.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav>
+        <img src="VKlearns.jpg" alt="">
+        <img id="menu-btn" src="Menubtn.png" alt="Menu Button">
+        <ul class="headlogin" align="center">
+            <li><a href="loginS.html">Login</a></li>
+            <li><a href="loginS.html">Sign Up</a></li>
+        </ul>
+
+        <div id="sidebar" class="sidebar">
+
+            <ul>
+                <h4>VK Learn</h4>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="Blog.html"><i class="fa-solid fa-book-open-reader"></i>Blogs</a></li>
+                <li><a href="About.html"><i class="fa-solid fa-address-card"></i>About Us</a></li>
+                <li><a href="Courses.html"><i class="fa-solid fa-layer-group"></i>Courses</a></li>
+                <li><a href="contactus.html"><i class="fa-solid fa-address-book"></i>Contact Us</a></li>
+                <br>
+                <hr>
+                <br>
+                <li><a href="#" align="center">Make Notes</a></li>
+                <li><a class="active" href="loginS.html" align="center">login</a></li>
+            </ul>
+
+            <ul class="ul2" align="center">
+                <img class="profile" src="profile1.png" alt="">
+                <li><a href="#">Profile > </a></li>
+                <li><a href="#">Logout > </a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+
+    <main class="content">
+
+
+
+
+
+
+        <!-- login -->
+        <div class="container">
+            <div class="nav-margin">
+                <input type="checkbox" id="flip">
+                <div class="cover">
+                    <div class="front">
+                        <img src="BACKg2.jpg" alt="">
+                        <div class="text">
+                            <span class="text-1"></span>
+                        </div>
+                    </div>
+
+                    <div class="back">
+                        <img class="backImg" src="BACKg2.jpg" alt="">
+                        <div class="text">
+                            <span class="text-1"><i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forms">
+                    <div class="form-content">
+                        <div class="login-form">
+                            <div class="title">Login</div>
+                            <form action="#">
+                                <div class="input-boxes">
+                                    <div class="input-box">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="text" placeholder="Enter your email" required>
+                                    </div>
+
+                                    <div class="input-box">
+                                        <i class="fas fa-lock"></i>
+                                        <input type="password" placeholder="Enter your password" required>
+                                    </div>
+                                    <div class="text"><a href="#">Forgot password?</a></div>
+                                    <div class="button input-box">
+                                        <input type="submit" value="Sumbit">
+                                    </div>
+                                    <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup
+                                            now</label></div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div class="signup-form">
+                            <div class="title">Signup</div>
+                            <form action="#">
+                                <div class="input-boxes">
+                                    <div class="input-box">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" placeholder="Enter your name" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="text" placeholder="Enter your email" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <i class="fas fa-lock"></i>
+                                        <input type="password" placeholder="Enter your password" required>
+                                    </div>
+                                    <div class="button input-box">
+                                        <input type="submit" value="Sumbit">
+                                    </div>
+                                    <div class="text sign-up-text">Already have an account? <label for="flip">Login
+                                            now</label></div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
